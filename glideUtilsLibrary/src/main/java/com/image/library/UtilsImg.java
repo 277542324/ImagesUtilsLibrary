@@ -30,19 +30,19 @@ public class UtilsImg {
     }
 
     //无动画载入网络圆角图片
-    /*public static void getRoundAppointImg(Context mContext, String url, int resourceId, ImageView view,int RoundNum,RoundCornersTransformation.CornerType type) {
+    public static void getRoundAppointImg(Context mContext, String url, int resourceId, ImageView view,int RoundNum,RoundCornersTransformation.CornerType type) {
         Glide.with(mContext)
                 .load(url).crossFade()
-                .centerCrop().bitmapTransform(new RoundCornersTransformation(mContext, UtilsTools.dip2px(mContext,RoundNum), type))
+                .centerCrop().bitmapTransform(new RoundCornersTransformation(mContext, dip2px(mContext,RoundNum), type))
                 .placeholder(resourceId).into(view);
     }
     //无动画载入本地圆角图片
     public static void getLocationRoundAppointImg(Context mContext, int resourceId, ImageView view,int RoundNum,RoundCornersTransformation.CornerType type) {
         Glide.with(mContext)
                 .load(resourceId).crossFade()
-                .centerCrop().bitmapTransform(new RoundCornersTransformation(mContext, UtilsTools.dip2px(mContext,RoundNum), type))
+                .centerCrop().bitmapTransform(new RoundCornersTransformation(mContext, dip2px(mContext,RoundNum), type))
                 .into(view);
-    }*/
+    }
 
     //普通载入网络图片
     public static void getGlideImg(Context mContext, String url, int resourceId, ImageView view) {
@@ -116,4 +116,9 @@ public class UtilsImg {
                 .into(view);
     }
 
+    public static  int dip2px(Context context, float dpValue)
+    {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
+    }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GlidImagesUtlis.iml" filepath="$PROJECT_DIR$/GlidImagesUtlis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImagesUtilsLibrary.iml" filepath="$PROJECT_DIR$/ImagesUtilsLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/glideUtilsLibrary/glideUtilsLibrary.iml" filepath="$PROJECT_DIR$/glideUtilsLibrary/glideUtilsLibrary.iml" />
     </modules>
