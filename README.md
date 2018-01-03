@@ -7,4 +7,5 @@
 * GlideCircleImg（圆形图片）
 * AlphaAnima（仿美团点击TAB动画特效）
 #### GlideImg方法需传入
-
+* mContext 传入当前Activity
+* beginUrl 图片变换前的URL （仅AlphaAnima使用，其他方法请填入null）
