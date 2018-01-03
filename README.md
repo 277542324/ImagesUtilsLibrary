@@ -15,12 +15,12 @@
 * RoundNum （图片圆角程度，填入数字0~99）
 * type （图片圆角的位置仅AnimaRoundAppointImg、RoundAppointImg、LocationRoundAppointImg有效）
 >type
-  * CornerType.ALL （所有角）
-  * CornerType.LEFT_TOP （左上）
- * CornerType.LEFT_BOTTOM （左下）
- * CornerType.RIGHT_TOP （右上）
- * CornerType.RIGHT_BOTTOM （右下）
- * CornerType.LEFT （左侧）
- * CornerType.RIGHT （右侧）
- * CornerType.BOTTOM （下侧）
- * CornerType.TOP （上侧）
+* CornerType.ALL （所有角）
+ * CornerType.LEFT_TOP （左上）
+* CornerType.LEFT_BOTTOM （左下）
+* CornerType.RIGHT_TOP （右上）
+* CornerType.RIGHT_BOTTOM （右下）
+* CornerType.LEFT （左侧）
+* CornerType.RIGHT （右侧）
+* CornerType.BOTTOM （下侧）
+* CornerType.TOP （上侧）
