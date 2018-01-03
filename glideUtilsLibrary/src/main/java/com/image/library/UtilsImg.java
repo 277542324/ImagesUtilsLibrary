@@ -72,7 +72,7 @@ public class UtilsImg {
                 break;
             case RoundAppointImg:
                 Glide.with(mContext)
-                        .load(endUrl).crossFade().dontAnimate()
+                        .load(endUrl).crossFade()
                         .centerCrop().bitmapTransform(new RoundCornersTransformation(mContext, dip2px(mContext, RoundNum), type))
                         .placeholder(resourceId).into(view);
                 break;
@@ -87,7 +87,7 @@ public class UtilsImg {
                 break;
             case GlideCircleImg:
                 Glide.with(mContext)
-                        .load(endUrl).placeholder(resourceId)
+                        .load(endUrl).placeholder(resourceId).crossFade()
                         .centerCrop().transform(new GlideCircleTransform(mContext))
                         .into(view);
                 break;
