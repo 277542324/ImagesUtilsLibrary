@@ -8,4 +8,9 @@
 * AlphaAnima（仿美团点击TAB动画特效）
 #### GlideImg方法需传入
 * mContext 传入当前Activity
-* beginUrl 图片变换前的URL （仅AlphaAnima使用，其他方法请填入null）
+* beginUrl 图片变换前的URL （仅AlphaAnima方法使用，其他方法请填入null）
+* endUrl   图片显示的URL （显示图片必须填入此方法的URL，如不填入图片者无法显示）
+* resourceId 图片载入前本地图片 （可在drawable、mipmap文件夹下寻找）
+* view （显示图片的载体，ImageView）
+* RoundNum （图片圆角程度，填入数字0~99）
+* type （图片圆角的位置仅AnimaRoundAppointImg、RoundAppointImg、LocationRoundAppointImg有效）
