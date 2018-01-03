@@ -6,4 +6,5 @@
 * GlideGifImg（动态gif图片）
 * GlideCircleImg（圆形图片）
 * AlphaAnima（仿美团点击TAB动画特效）
+#### GlideImg方法需传入
 
