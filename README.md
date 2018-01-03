@@ -17,7 +17,7 @@
 >type
 * CornerType.ALL （所有角）
   * CornerType.LEFT_TOP （左上）
-  *CornerType.LEFT_BOTTOM （左下）
+  * CornerType.LEFT_BOTTOM （左下）
    *CornerType.RIGHT_TOP （右上）
    *CornerType.RIGHT_BOTTOM （右下）
    *CornerType.LEFT （左侧）
