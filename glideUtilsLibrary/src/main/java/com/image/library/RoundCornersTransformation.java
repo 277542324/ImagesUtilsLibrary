@@ -15,7 +15,9 @@ import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapResource;
 
 /**
- * Created by Administrator on 2017/11/17.
+ *
+ * @author Administrator
+ * @date 2017/11/17
  */
 public class RoundCornersTransformation implements Transformation<Bitmap> {
 
